@@ -1,0 +1,78 @@
+What is a transient variable?
+
+A transient variable is a variable that may not be serialized.
+
+Which containers use a border Layout as their default layout?
+
+The Window, Frame and Dialog classes use a border layout as their default layout.
+
+Why do threads block on I/O?
+
+Threads block on I/O (that is enters the waiting state) so that other threads may execute while the
+I/O Operation is performed.
+
+How are Observer and Observable used?
+
+Objects that subclass the Observable class maintain a list of observers. When an Observable object
+is updated it invokes the update() method of each of its observers to notify the observers that it has
+changed state. The Observer interface is implemented by objects that observe Observable objects.
+
+What is synchronization and why is it important?
+
+With respect to multithreading, synchronization is the capability to control the access of multiple
+threads to shared resources. Without synchronization, it is possible for one thread to modify a
+shared object while another thread is in the process of using or updating that object's value. This
+often leads to significant errors.
+
+Can a lock be acquired on a class?
+
+Yes, a lock can be acquired on a class. This lock is acquired on the class's Class object.
+
+What's new with the stop(), suspend() and resume() methods in JDK 1.2?
+
+The stop(), suspend() and resume() methods have been deprecated in JDK 1.2.
+
+Is null a keyword?
+
+The null is not a keyword.
+
+What is the preferred size of a component?
+
+The preferred size of a component is the minimum component size that will allow the component to
+display normally.
+
+What method is used to specify a container's layout?
+
+The setLayout() method is used to specify a container's layout.
+
+Which containers use a FlowLayout as their default layout?
+
+The Panel and Applet classes use the FlowLayout as their default layout.
+
+What state does a thread enter when it terminates its processing?
+
+When a thread terminates its processing, it enters the dead state.
+
+What is the Collections API?
+
+The Collections API is a set of classes and interfaces that support operations on collections of
+objects.
+
+Which characters may be used as the second character of an identifier, but not as the first
+character of an identifier?
+
+The digits 0 through 9 may not be used as the first character of an identifier but they may be used
+after the first character of an identifier.
+
+What is the List interface?
+
+The List interface provides support for ordered collections of objects.
+
+How does Java handle integer overflows and underflows?
+
+It uses those low order bytes of the result that can fit into the size of the type allowed by the
+operation.
+
+What is the Vector class?
+
+The Vector class provides the capability to implement a growable array of objects
